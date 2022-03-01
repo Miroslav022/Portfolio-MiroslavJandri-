@@ -802,6 +802,18 @@ header #pre-header nav ul li a:hover {
   padding: 20px 10px;
 }
 
+#contact-me .forma form .dugme {
+  border: none;
+}
+
+#contact-me .forma form .dugme input {
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px;
+}
+
+
 #contact-me .forma form .form-inp input:focus {
   outline: none;
   font-size: 15px;
@@ -1098,7 +1110,7 @@ header #header-text .container .tag {
  }
 
  #contact-me .content-text p {
-     font-size: 14px;
+     font-size: 16px;
      word-wrap: break-word;
  }
 
@@ -1118,7 +1130,6 @@ header #header-text .container .tag {
 
  header #header-text .container h1,   header #header-text .container p {
      font-size: 14px;
-     
      border-right: none;
  }
 
@@ -1132,10 +1143,7 @@ header #header-text .container .tag {
  
  }
 
- #contact-me .content-text p {
-     font-size: 12px;
-     word-wrap: break-word;
- }
+
 
  #contact-me .content-text h2 {
      font-size: 25px;
@@ -1144,6 +1152,10 @@ header #header-text .container .tag {
 
  #contact-me .content-text h3 {
      font-size: 45px;
+ }
+
+ #contact-me .forma form .dugme input {
+   font-size: 12px;
  }
  
 }
