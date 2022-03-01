@@ -1159,6 +1159,11 @@ header #header-text .container .tag {
  #contact-me .forma form .dugme input {
    font-size: 12px;
  }
+  
+  #contact-me .forma form .form-inp {
+  width: 80%;
+  margin: 0px auto;
+}
  
 }
 
