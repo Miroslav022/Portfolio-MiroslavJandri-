@@ -1,0 +1,370 @@
+ @media screen and (max-width: 1280px) {
+     header #header-text .container h2, header #header-text .container h3 {
+         font-size: 55px;
+     }
+     header #header-text .container a {
+        padding: 5px 15px;
+     }
+
+     #about-me h2 {
+         font-size: 20px;
+     }
+
+     #about-me #about-me-blok #about-me-text p {
+         font-size: 16px;
+     }
+
+     #project #my-project #flex-project .slika {
+         height: 350px;
+     }
+
+     #project #my-project #flex-project .slika .fa-brands {
+        font-size: 30px;
+    }
+
+ }
+
+  @media screen and (max-width: 1000px) {
+    #side-meni {
+        display: none;
+    }
+
+    #about-me h2 {
+        font-size: 17px;
+    }
+
+    #about-me #about-me-blok #about-me-text p {
+        font-size: 14px;
+    }
+    #project #my-project #flex-project .slika {
+        height: 300px;
+    }
+
+   
+
+    #contact-me .content-text .how-contact .ikone i {
+        font-size: 30px;
+    } 
+    #contact-me .content-text .how-contact .ikone p {
+        font-size: 15px;
+    }
+
+    #contact-me .content-text h3 {
+        font-size: 55px ;
+    }
+
+    #contact-me .content-text p {
+        font-size: 16px;
+    }
+
+    #contact-me .forma h4 {
+        font-size: 20px;
+    }
+  }
+
+ @media screen and (max-width: 840px) {
+     header #pre-header #logo h1 a {
+         font-size: 24px;
+     }
+     header #header-text .container h2, header #header-text .container h3 {
+        font-size: 50px;
+    }
+    header #header-text .container .tag {
+        font-size: 18px;
+    }
+    header #header-text .container a {
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    #about-me h2 {
+        font-size: 14px;
+    }
+
+    #about-me #about-me-blok #about-me-text p {
+        font-size: 12px;
+    }
+
+    #about-me .my-skills .skills {
+        width: 100%;
+    }
+
+    #project #my-project #flex-project .slika {
+        width: 70%;
+        margin-bottom: 50px;
+        height: auto;
+
+    }
+
+    #project #my-project #flex-project .slika .tech .tech-block {
+        margin-bottom: 10px;
+    }
+    
+    #project h2 {
+        font-size: 20px;
+    }
+
+    #contact-me .content-text .how-contact  {
+        flex-direction: column;
+    }
+    #contact-me .content-text .how-contact .ikone {
+        margin-bottom: 30px;
+    }
+ }
+
+ @media screen and (max-width: 778px) {
+    
+    header #header-text .container h2, header #header-text .container h3 {
+       font-size: 45px;
+   }
+   header #header-text .container .tag {
+       font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 680px) {
+    
+    header #header-text .container h2, header #header-text .container h3 {
+       font-size: 40px;
+   }
+   header #header-text .container .tag {
+       font-size: 14px;
+   }
+
+#about-me #about-me-blok #about-me-text {
+    width: 100%;
+}
+
+#about-me #about-me-blok #about-me-img {
+    width: 100%;
+    margin-top: 30px;
+}
+ 
+#about-me #about-me-blok #about-me-img #img-blok {
+    width: 40%;
+}
+#about-me .tag {
+    font-size: 14px;
+}
+
+#project .tag, #project .tag-cl {
+    font-size: 16px;
+
+}
+
+#contact-me .forma h4 {
+    font-size: 16px;
+}
+
+#contact-me .forma .tag-cl {
+    font-size: 17px;
+}
+
+}
+
+ @media screen and (max-width: 620px) {
+    header #header-text .container h2, header #header-text .container h3 {
+        font-size: 35px;
+    }
+
+    header #header-text .container .tag {
+        font-size: 14px;
+    }
+
+
+    header #pre-header #logo h1 a {
+        font-size: 20px;
+    }
+
+    header #pre-header nav ul li {
+        font-size: 13px;
+    }
+
+    header #header-text .container h1,   header #header-text .container p {
+        font-size: 14px;
+    }
+
+    #contact-me .content-text p {
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+ }
+
+ @media screen and (max-width: 548px) {
+     header #pre-header #logo,  header #pre-header nav  {
+         width: 100%;
+            
+     }
+
+     header #header-text .container h2, header #header-text .container h3 {
+        font-size: 30px;
+    }
+
+
+     header #pre-header nav {
+        margin-right: 0px;
+     }
+
+     header #pre-header {
+        text-align: center;
+        
+     }
+     
+     header #pre-header #logo h1 a {
+         margin: 0px;
+     }
+
+     header #header-text .container a {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    #project #my-project #flex-project .slika h3 {
+       font-size: 15px;
+    }
+
+    #project #my-project #flex-project .slika .fa-brands {
+        font-size: 23px;
+    }
+
+    #project #my-project #flex-project .slika .tech .tech-block p {
+        font-size: 14px;
+    }
+
+    #project h2 {
+        font-size: 16px;
+    }
+
+    #project #my-project h4 {
+        font-size: 14px;
+    }
+   
+    #contact-me .content-text p {
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+
+    footer p, footer a {    
+        font-size: 15px;
+        
+    }
+ }
+
+ @media screen and (max-width: 465px) {
+    header #header-text .container h2, header #header-text .container h3 {
+        font-size: 20px;
+        
+        border-right: none;
+        width: 100%;
+    }
+
+    header #header-text .container h1,   header #header-text .container p {
+        font-size: 14px;
+        
+        border-right: none;
+    }
+
+    header #header-text .container a {
+        font-size: 15px;
+        padding: 4px 8px;
+    }
+
+    #project .tag, #project .tag-cl {
+        font-size: 14px;
+    
+    }
+
+    #contact-me .content-text p {
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+
+    #contact-me .content-text h2 {
+        font-size: 25px;
+
+    }
+
+    #contact-me .content-text h3 {
+        font-size: 45px;
+    }
+    
+ }
+
+ @media screen and (max-width: 381px) {
+    header #header-text .container h2, header #header-text .container h3 {
+        font-size: 17px;
+    }
+
+    header #header-text .container h1,   header #header-text .container p {
+        font-size: 12px;
+    }
+
+    #project #my-project #flex-project .slika h3 {
+        font-size: 13px;
+     }
+ 
+     #project #my-project #flex-project .slika .fa-brands {
+         font-size: 19px;
+     }
+ 
+     #project #my-project #flex-project .slika .tech .tech-block p {
+         font-size: 12px;
+     }
+
+     #project #my-project h4 {
+        font-size: 12px;
+    }
+    footer p, footer a {    
+        font-size: 12px;
+        
+    }
+ }
+
+
+
+ @media screen and (max-width: 355px) {
+    header #header-text .container h2, header #header-text .container h3 {
+        font-size: 15px;
+    }
+
+    header #header-text .container h1,   header #header-text .container p {
+        font-size: 8px;
+    }
+    header #header-text .container .tag {
+        font-size: 10px;
+    }
+    header #pre-header #logo h1 a {
+        font-size: 17px;
+    }
+
+    header #pre-header nav ul li {
+        font-size: 12px;
+    }
+    header #header-text .container a {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    #contact-me .forma .tag-cl {
+        font-size: 15px; 
+    }
+ }
+
+ @media screen and (max-width: 320px) {
+    header #header-text .container h2, header #header-text .container h3 {
+        font-size: 13px;
+    }
+
+    header #header-text .container h1,   header #header-text .container p {
+        font-size: 8px;
+    }
+   
+    #contact-me .content-text p {
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+
+    #contact-me .content-text .how-contact .ikone i {
+        font-size: 25px;
+    } 
+ }

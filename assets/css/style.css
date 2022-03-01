@@ -1,0 +1,1229 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.typing {
+  width: 27ch;
+  -webkit-animation: typing 3s steps(27), blink 0.3s step-end infinite alternate;
+          animation: typing 3s steps(27), blink 0.3s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 50px;
+  border-right: 2px solid;
+}
+
+.typing1 {
+  width: 19ch;
+  -webkit-animation: typing 3s steps(19), blink 0.3s step-end infinite alternate;
+          animation: typing 3s steps(19), blink 0.3s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 50px;
+  border-right: 2px solid;
+}
+
+.typing2 {
+  width: 22ch;
+  -webkit-animation: typing 3s steps(22), blink 0.3s step-end infinite alternate;
+          animation: typing 3s steps(22), blink 0.3s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 50px;
+  border-right: 2px solid;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fadetop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translatey(-50px);
+            transform: translatey(-50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+}
+
+@keyframes fadetop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translatey(-50px);
+            transform: translatey(-50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(150px);
+            transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(150px);
+            transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #0a192f;
+}
+
+header {
+  height: 100vh;
+}
+
+header #pre-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(10, 25, 47, 0.85);
+  z-index: 100;
+}
+
+header #pre-header #logo h1 a {
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+header #pre-header #logo .logo-tag {
+  color: #2196f3;
+}
+
+header #pre-header nav {
+  margin-right: 30px;
+}
+
+header #pre-header nav ul {
+  display: inline-block;
+}
+
+header #pre-header nav ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+header #pre-header nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+header #pre-header nav ul li a:hover {
+  color: #2196f3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#header-text {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+#header-text .container h2 {
+  font-size: 65px;
+  letter-spacing: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#header-text .container h1 {
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #2196f3;
+  margin-bottom: 20px;
+}
+
+#header-text .container h3 {
+  font-size: 65px;
+  color: #c2c3c7;
+  margin-bottom: 10px;
+}
+
+#header-text .container p {
+  color: #c2c3c7;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#header-text .container .tag {
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  color: #fff;
+}
+
+#header-text .container .tag-cl {
+  float: right;
+  color: #fff;
+  margin-top: 60px;
+}
+
+#header-text .container a {
+  color: #2196f3;
+  letter-spacing: 4px;
+  padding: 7px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  overflow: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  border: 1px solid #2196f3;
+}
+
+#header-text .container a:hover {
+  background: #2196f3;
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
+          box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+#side-meni {
+  width: 40px;
+  position: fixed;
+  color: #c2c3c7;
+  left: 40px;
+  bottom: 0px;
+}
+
+#side-meni ul li {
+  list-style-type: none;
+}
+
+#side-meni ul li a i {
+  padding: 10px;
+  font-size: 20px;
+  color: #c2c3c7;
+}
+
+#side-meni ul li a i:hover {
+  color: #2196f3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#side-meni ul::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #c2c3c7;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+#about-me {
+  width: 80%;
+  margin: 40px auto;
+  padding: 100px 0px;
+}
+
+#about-me h2 {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-me h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 2px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: #c2c3c7;
+  width: 30%;
+}
+
+#about-me .tag {
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  color: #fff;
+}
+
+#about-me .tag-cl {
+  float: right;
+  color: #fff;
+}
+
+#about-me #about-me-blok {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#about-me #about-me-blok #about-me-text {
+  -webkit-animation: fadeInLeft 1.2s both;
+          animation: fadeInLeft 1.2s both;
+  width: 40%;
+}
+
+#about-me #about-me-blok #about-me-text p {
+  color: #c2c3c7;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#about-me #about-me-blok #about-me-img {
+  width: 40%;
+  -webkit-animation: fadeInRight 1.2s both;
+          animation: fadeInRight 1.2s both;
+}
+
+#about-me #about-me-blok #about-me-img #img-blok {
+  margin: 0 auto;
+  border: 4px solid #2094f3;
+  -webkit-box-shadow: 0 0 2px #2196f3, 0 0 15px #2196f3, 0 0 34px #2196f3;
+          box-shadow: 0 0 2px #2196f3, 0 0 15px #2196f3, 0 0 34px #2196f3;
+  width: 60%;
+}
+
+#about-me #about-me-blok #about-me-img #img-blok img {
+  width: 100%;
+  position: relative;
+  top: -20px;
+  left: -20px;
+}
+
+#about-me #about-me-blok #about-me-img #img-blok img:hover {
+  background-color: rgba(32, 148, 243, 0.4);
+}
+
+#about-me .my-skills {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-me .my-skills .skills {
+  margin: 150px auto;
+  width: 40%;
+  padding: 20px 25px;
+  -webkit-box-shadow: 4px 5px 19px 0px rgba(0, 0, 0, 0.94);
+          box-shadow: 4px 5px 19px 0px rgba(0, 0, 0, 0.94);
+}
+
+#about-me .my-skills .skills h3 {
+  color: #c2c3c7;
+}
+
+#about-me .my-skills .skills .block {
+  margin: 20px 0px;
+}
+
+#about-me .my-skills .skills .block .sk-blok span {
+  font-size: 17px;
+  font-weight: 500;
+  color: #c2c3c7;
+}
+
+#about-me .my-skills .skills .block .progress {
+  height: 5px;
+  width: 100%;
+  background: #c2c3c7;
+  position: relative;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+          animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+#about-me .my-skills .skills .block .progress span {
+  height: 100%;
+  width: 80%;
+  background: #2196f3;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+          animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+#about-me .my-skills .skills .block .progress span::after {
+  position: absolute;
+  right: 0;
+  top: -26px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  background: #000;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+#about-me .my-skills .skills .block .progress span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+}
+
+#about-me .my-skills .skills .block .html span {
+  width: 95%;
+}
+
+#about-me .my-skills .skills .block .html span::after {
+  content: "95%";
+}
+
+#about-me .my-skills .skills .block .css span {
+  width: 90%;
+}
+
+#about-me .my-skills .skills .block .css span::after {
+  content: "90%";
+}
+
+#about-me .my-skills .skills .block .js span {
+  width: 60%;
+}
+
+#about-me .my-skills .skills .block .js span::after {
+  content: "60%";
+}
+
+#about-me .my-skills .skills .block .bootstrap span {
+  width: 70%;
+}
+
+#about-me .my-skills .skills .block .bootstrap span::after {
+  content: "70%";
+}
+
+#about-me .my-skills .skills .block .sass span {
+  width: 80%;
+}
+
+#about-me .my-skills .skills .block .sass span::after {
+  content: "80%";
+}
+
+#about-me .my-skills .skills .block .com span {
+  width: 90%;
+}
+
+#about-me .my-skills .skills .block .com span::after {
+  content: "90%";
+}
+
+#about-me .my-skills .skills .block .team span {
+  width: 95%;
+}
+
+#about-me .my-skills .skills .block .team span::after {
+  content: "95%";
+}
+
+#about-me .my-skills .skills .block .creativity span {
+  width: 80%;
+}
+
+#about-me .my-skills .skills .block .creativity span::after {
+  content: "80%";
+}
+
+#about-me .my-skills .skills .block .fast span {
+  width: 75%;
+}
+
+#about-me .my-skills .skills .block .fast span::after {
+  content: "75%";
+}
+
+#about-me .my-skills .skills .block .adaptability span {
+  width: 85%;
+}
+
+#about-me .my-skills .skills .block .adaptability span::after {
+  content: "85%";
+}
+
+#project {
+  width: 80%;
+  margin: 40px auto;
+  padding: 100px 0px;
+}
+
+#project .tag {
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  color: #fff;
+}
+
+#project .tag-cl {
+  float: right;
+  color: #fff;
+}
+
+#project h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+#project h2::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 2px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: #c2c3c7;
+  width: 30%;
+}
+
+#project #my-project h4 {
+  text-align: center;
+  margin-top: 100px;
+  color: #2196f3;
+}
+
+#project #my-project #flex-project {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#project #my-project #flex-project .slika {
+  background-color: #112240;
+  height: inherit;
+  text-align: center;
+  width: 30%;
+  -webkit-animation: fadetop 1.2s both;
+          animation: fadetop 1.2s both;
+}
+
+#project #my-project #flex-project .slika .blok-slika img {
+  width: 100%;
+  -webkit-filter: opacity(0.5);
+          filter: opacity(0.5);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#project #my-project #flex-project .slika .blok-slika img:hover {
+  -webkit-filter: opacity(1);
+          filter: opacity(1);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#project #my-project #flex-project .slika .tech {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 20px;
+  color: #fff;
+  padding: 30px;
+}
+
+#project #my-project #flex-project .slika h3 {
+  color: #c2c3c7;
+  margin-top: 20px;
+}
+
+#project #my-project #flex-project .slika .fa-brands {
+  color: #fff;
+  font-size: 40px;
+}
+
+#project #my-project #flex-project .slika .fa-html5:hover {
+  color: #e76f3f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#project #my-project #flex-project .slika .fa-css3-alt:hover {
+  color: #2196f3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#project #my-project #flex-project .slika .fa-js:hover {
+  color: #d6e417;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact-me {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  -webkit-animation: fadeInLeft 1.2s both;
+          animation: fadeInLeft 1.2s both;
+}
+
+#contact-me .content-text {
+  color: #fff;
+  margin: 0px auto;
+}
+
+#contact-me .content-text h3 {
+  font-size: 60px;
+}
+
+#contact-me .content-text p {
+  font-size: 20px;
+  color: #fff;
+  word-wrap: break-word;
+}
+
+#contact-me .content-text .how-contact {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact-me .content-text .how-contact .ikone i {
+  font-size: 30px;
+  padding: 10px;
+  color: #fff;
+}
+
+#contact-me .content-text .how-contact .ikone a {
+  color: #fff;
+}
+
+#contact-me .content-text .how-contact .ikone .fa-whatsapp:hover {
+  color: #07d63b;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact-me .content-text .how-contact .ikone .fa-inbox:hover {
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact-me .content-text .how-contact .ikone .fa-instagram:hover {
+  color: #d6249f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact-me .forma {
+  width: 60%;
+  margin: 100px auto;
+}
+
+#contact-me .forma h4 {
+  font-size: 25px;
+  color: #fff;
+}
+
+#contact-me .forma form .form-inp {
+  width: 40%;
+  margin: 0px auto;
+}
+
+#contact-me .forma form .form-inp input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #2094f3;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+#contact-me .forma form .form-inp input:focus {
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#contact-me .forma form .form-inp ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+#contact-me .forma form .form-inp :-ms-input-placeholder {
+  color: #fff;
+}
+
+#contact-me .forma form .form-inp ::-ms-input-placeholder {
+  color: #fff;
+}
+
+#contact-me .forma form .form-inp ::placeholder {
+  color: #fff;
+}
+
+#contact-me .forma form .form-inp textarea {
+  background-color: #0a192f;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #2094f3;
+  outline: none;
+  resize: none;
+}
+
+#contact-me .forma form .form-inp textarea:focus {
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#contact-me .forma .tag-cl {
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  height: 50px;
+}
+
+footer a {
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  header #header-text .container h2, header #header-text .container h3 {
+      font-size: 55px;
+  }
+  header #header-text .container a {
+     padding: 5px 15px;
+  }
+
+  #about-me h2 {
+      font-size: 20px;
+  }
+
+  #about-me #about-me-blok #about-me-text p {
+      font-size: 16px;
+  }
+
+  #project #my-project #flex-project .slika {
+      height: 350px;
+  }
+
+  #project #my-project #flex-project .slika .fa-brands {
+     font-size: 30px;
+ }
+
+}
+
+@media screen and (max-width: 1000px) {
+ #side-meni {
+     display: none;
+ }
+
+ #about-me h2 {
+     font-size: 17px;
+ }
+
+ #about-me #about-me-blok #about-me-text p {
+     font-size: 14px;
+ }
+ #project #my-project #flex-project .slika {
+     height: 300px;
+ }
+
+
+
+ #contact-me .content-text .how-contact .ikone i {
+     font-size: 30px;
+ } 
+ #contact-me .content-text .how-contact .ikone p {
+     font-size: 15px;
+ }
+
+ #contact-me .content-text h3 {
+     font-size: 55px ;
+ }
+
+ #contact-me .content-text p {
+     font-size: 16px;
+ }
+
+ #contact-me .forma h4 {
+     font-size: 20px;
+ }
+}
+
+@media screen and (max-width: 840px) {
+  header #pre-header #logo h1 a {
+      font-size: 24px;
+  }
+  header #header-text .container h2, header #header-text .container h3 {
+     font-size: 50px;
+ }
+ header #header-text .container .tag {
+     font-size: 18px;
+ }
+ header #header-text .container a {
+     padding: 5px 10px;
+     font-size: 20px;
+ }
+
+ #about-me h2 {
+     font-size: 14px;
+ }
+
+ #about-me #about-me-blok #about-me-text p {
+     font-size: 12px;
+ }
+
+ #about-me .my-skills .skills {
+     width: 100%;
+ }
+
+ #project #my-project #flex-project .slika {
+     width: 70%;
+     margin-bottom: 50px;
+     height: auto;
+
+ }
+
+ #project #my-project #flex-project .slika .tech .tech-block {
+     margin-bottom: 10px;
+ }
+ 
+ #project h2 {
+     font-size: 20px;
+ }
+
+ #contact-me .content-text .how-contact  {
+     flex-direction: column;
+ }
+ #contact-me .content-text .how-contact .ikone {
+     margin-bottom: 30px;
+ }
+}
+
+@media screen and (max-width: 778px) {
+ 
+ header #header-text .container h2, header #header-text .container h3 {
+    font-size: 45px;
+}
+header #header-text .container .tag {
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width: 680px) {
+ 
+ header #header-text .container h2, header #header-text .container h3 {
+    font-size: 40px;
+}
+header #header-text .container .tag {
+    font-size: 14px;
+}
+
+#about-me #about-me-blok #about-me-text {
+ width: 100%;
+}
+
+#about-me #about-me-blok #about-me-img {
+ width: 100%;
+ margin-top: 30px;
+}
+
+#about-me #about-me-blok #about-me-img #img-blok {
+ width: 40%;
+}
+#about-me .tag {
+ font-size: 14px;
+}
+
+#project .tag, #project .tag-cl {
+ font-size: 16px;
+
+}
+
+#contact-me .forma h4 {
+ font-size: 16px;
+}
+
+#contact-me .forma .tag-cl {
+ font-size: 17px;
+}
+
+}
+
+@media screen and (max-width: 620px) {
+ header #header-text .container h2, header #header-text .container h3 {
+     font-size: 35px;
+ }
+
+ header #header-text .container .tag {
+     font-size: 14px;
+ }
+
+
+ header #pre-header #logo h1 a {
+     font-size: 20px;
+ }
+
+ header #pre-header nav ul li {
+     font-size: 13px;
+ }
+
+ header #header-text .container h1,   header #header-text .container p {
+     font-size: 14px;
+ }
+
+ #contact-me .content-text p {
+     font-size: 14px;
+     word-wrap: break-word;
+ }
+}
+
+@media screen and (max-width: 548px) {
+  header #pre-header #logo,  header #pre-header nav  {
+      width: 100%;
+         
+  }
+
+  header #header-text .container h2, header #header-text .container h3 {
+     font-size: 30px;
+ }
+
+
+  header #pre-header nav {
+     margin-right: 0px;
+  }
+
+  header #pre-header {
+     text-align: center;
+     
+  }
+  
+  header #pre-header #logo h1 a {
+      margin: 0px;
+  }
+
+  header #header-text .container a {
+     padding: 5px 10px;
+     font-size: 15px;
+ }
+
+ #project #my-project #flex-project .slika h3 {
+    font-size: 15px;
+ }
+
+ #project #my-project #flex-project .slika .fa-brands {
+     font-size: 23px;
+ }
+
+ #project #my-project #flex-project .slika .tech .tech-block p {
+     font-size: 14px;
+ }
+
+ #project h2 {
+     font-size: 16px;
+ }
+
+ #project #my-project h4 {
+     font-size: 14px;
+ }
+
+ #contact-me .content-text p {
+     font-size: 14px;
+     word-wrap: break-word;
+ }
+
+ footer p, footer a {    
+     font-size: 15px;
+     
+ }
+}
+
+@media screen and (max-width: 465px) {
+ header #header-text .container h2, header #header-text .container h3 {
+     font-size: 20px;
+     
+     border-right: none;
+     width: 100%;
+ }
+
+ header #header-text .container h1,   header #header-text .container p {
+     font-size: 14px;
+     
+     border-right: none;
+ }
+
+ header #header-text .container a {
+     font-size: 15px;
+     padding: 4px 8px;
+ }
+
+ #project .tag, #project .tag-cl {
+     font-size: 14px;
+ 
+ }
+
+ #contact-me .content-text p {
+     font-size: 12px;
+     word-wrap: break-word;
+ }
+
+ #contact-me .content-text h2 {
+     font-size: 25px;
+
+ }
+
+ #contact-me .content-text h3 {
+     font-size: 45px;
+ }
+ 
+}
+
+@media screen and (max-width: 381px) {
+ header #header-text .container h2, header #header-text .container h3 {
+     font-size: 17px;
+ }
+
+ header #header-text .container h1,   header #header-text .container p {
+     font-size: 12px;
+ }
+
+ #project #my-project #flex-project .slika h3 {
+     font-size: 13px;
+  }
+
+  #project #my-project #flex-project .slika .fa-brands {
+      font-size: 19px;
+  }
+
+  #project #my-project #flex-project .slika .tech .tech-block p {
+      font-size: 12px;
+  }
+
+  #project #my-project h4 {
+     font-size: 12px;
+ }
+ footer p, footer a {    
+     font-size: 12px;
+     
+ }
+}
+
+
+
+@media screen and (max-width: 355px) {
+ header #header-text .container h2, header #header-text .container h3 {
+     font-size: 15px;
+ }
+
+ header #header-text .container h1,   header #header-text .container p {
+     font-size: 8px;
+ }
+ header #header-text .container .tag {
+     font-size: 10px;
+ }
+ header #pre-header #logo h1 a {
+     font-size: 17px;
+ }
+
+ header #pre-header nav ul li {
+     font-size: 12px;
+ }
+ header #header-text .container a {
+     font-size: 12px;
+     padding: 4px 8px;
+ }
+
+ #contact-me .forma .tag-cl {
+     font-size: 15px; 
+ }
+}
+
+@media screen and (max-width: 320px) {
+ header #header-text .container h2, header #header-text .container h3 {
+     font-size: 13px;
+ }
+
+ header #header-text .container h1,   header #header-text .container p {
+     font-size: 8px;
+ }
+
+ #contact-me .content-text p {
+     font-size: 14px;
+     word-wrap: break-word;
+ }
+
+ #contact-me .content-text .how-contact .ikone i {
+     font-size: 25px;
+ } 
+}
+/*# sourceMappingURL=style.css.map */
